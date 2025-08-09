@@ -1,0 +1,16 @@
+[
+  { "slug": "restaurants", "name": "مطاعم", "name_en": "Restaurants", "name_fr": "Restaurants", "icon": "🍽️" },
+  { "slug": "cafes", "name": "مقاهي", "name_en": "Cafes", "name_fr": "Cafés", "icon": "☕" },
+  { "slug": "schools", "name": "مدارس", "name_en": "Schools", "name_fr": "Écoles", "icon": "🏫" },
+  { "slug": "universities", "name": "جامعات", "name_en": "Universities", "name_fr": "Universités", "icon": "🎓" },
+  { "slug": "car-rentals", "name": "كراء السيارات", "name_en": "Car Rentals", "name_fr": "Location de voitures", "icon": "🚗" },
+  { "slug": "mechanics", "name": "ميكانيك", "name_en": "Mechanics", "name_fr": "Mécanique", "icon": "🔧" },
+  { "slug": "doctors", "name": "أطباء", "name_en": "Doctors", "name_fr": "Médecins", "icon": "🩺" },
+  { "slug": "pharmacies", "name": "صيدليات", "name_en": "Pharmacies", "name_fr": "Pharmacies", "icon": "💊" },
+  { "slug": "lawyers", "name": "محامون", "name_en": "Lawyers", "name_fr": "Avocats", "icon": "⚖️" },
+  { "slug": "notaries", "name": "موثقون", "name_en": "Notaries", "name_fr": "Notaires", "icon": "🖋️" },
+  { "slug": "hotels", "name": "فنادق", "name_en": "Hotels", "name_fr": "Hôtels", "icon": "🏨" },
+  { "slug": "travel", "name": "سفر وسياحة", "name_en": "Travel & Tourism", "name_fr": "Voyages et tourisme", "icon": "✈️" },
+  { "slug": "it-services", "name": "خدمات تقنية", "name_en": "IT Services", "name_fr": "Services informatiques", "icon": "💻" },
+  { "slug": "e-services", "name": "خدمات إلكترونية", "name_en": "E-Services", "name_fr": "Services électroniques", "icon": "⚡" }
+]
