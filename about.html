@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>من نحن - Dalil DZ</title>
+  <meta name="description" content="تعرف على Dalil DZ ورسالتنا في تسهيل الوصول إلى أفضل الخدمات المحلية في الجزائر." />
+  <link rel="icon" type="image/png" href="assets/img/logo.png" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { darkMode: 'class', theme: { extend: { fontFamily: { sans: ['Rubik','ui-sans-serif','system-ui'] }, colors: { primary: '#0ea5e9' } } } };
+  </script>
+</head>
+<body class="bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 font-sans">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/90 dark:bg-gray-900/80 backdrop-blur border-b border-gray-100 dark:border-gray-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="h-16 flex items-center justify-between">
+        <a href="index.html" class="flex items-center gap-3 tap">
+          <img src="assets/img/logo.png" alt="Dalil DZ" class="w-9 h-9 object-contain" />
+          <span class="text-xl font-bold text-gray-900 dark:text-gray-100">Dalil DZ</span>
+        </a>
+        <nav class="hidden md:flex items-center gap-6">
+          <a href="index.html#categories" class="hover:text-primary">📚 التصنيفات</a>
+          <a href="e-services.html" class="hover:text-primary">⚡ الخدمات الإلكترونية</a>
+          <a href="about.html" class="text-primary font-semibold">ℹ️ من نحن</a>
+          <a href="contact.html" class="hover:text-primary">📨 اتصل بنا</a>
+          <button data-theme-toggle class="tap p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-800" aria-label="الوضع الداكن" title="تبديل الوضع">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 hidden dark:block"><path d="M21.64 13A9 9 0 1 1 11 2.36 7 7 0 0 0 21.64 13z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 dark:hidden"><path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"/></svg>
+          </button>
+        </nav>
+        <button id="mobileMenuBtn" class="md:hidden tap p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-800" aria-label="فتح القائمة">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden border-t border-gray-100 dark:border-gray-800">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex flex-col gap-3">
+        <a href="index.html#categories" class="hover:text-primary">📚 التصنيفات</a>
+        <a href="e-services.html" class="hover:text-primary">⚡ الخدمات الإلكترونية</a>
+        <a href="about.html" class="text-primary font-semibold">ℹ️ من نحن</a>
+        <a href="contact.html" class="hover:text-primary">📨 اتصل بنا</a>
+        <button data-theme-toggle class="tap p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-800 self-start" aria-label="الوضع الداكن">تبديل الوضع</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="py-10 sm:py-14 bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-950">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 space-y-5">
+        <h1 class="text-3xl sm:text-4xl font-bold">ℹ️ من نحن</h1>
+        <p class="text-gray-600 dark:text-gray-300 leading-8">
+          Dalil DZ منصة جزائرية تهدف إلى تسهيل العثور على الخدمات المحلية الموثوقة بالقرب منك.
+          نجمع المعلومات الأساسية، التقييمات، وطرق التواصل، مع تجربة استخدام عصرية تدعم العربية من اليمين إلى اليسار.
+        </p>
+        <p class="text-gray-600 dark:text-gray-300 leading-8">
+          نعمل على تحديث البيانات باستمرار وتحسين تجربة البحث والعرض عبر أيقونات واضحة وتصميم نظيف وموحّد.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-200" id="contact">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-10 grid gap-8 sm:grid-cols-3">
+      <div>
+        <h3 class="text-lg font-semibold mb-3">Dalil DZ</h3>
+        <p class="text-gray-400">دليل الخدمات المحلية في الجزائر</p>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-3">📞 اتصل بنا</h3>
+        <ul class="space-y-2 text-gray-300">
+          <li><a href="mailto:hbouzourdaz@gmail.com" class="inline-flex items-center gap-2 hover:text-white"><span dir="ltr">hbouzourdaz@gmail.com</span></a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-3">📣 تابعنا</h3>
+        <div class="flex items-center gap-3">
+          <a href="#" aria-label="Facebook" class="inline-flex items-center justify-center w-10 h-10 rounded-full border border-white/20 text-gray-300 hover:text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-primary/40">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M13.5 9H15V6h-1.5C11.57 6 10.5 7.07 10.5 9v2H9v3h1.5v6h3v-6H15l.5-3h-2V9z"/></svg>
+          </a>
+          <a href="#" aria-label="Twitter" class="inline-flex items-center justify-center w-10 h-10 rounded-full border border-white/20 text-gray-300 hover:text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-primary/40">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M4 4l7.2 9.3L4.7 20H7l5.1-5.7L16.9 20H20l-7.6-9.8L19.2 4H17l-4.7 5.3L8 4H4z"/></svg>
+          </a>
+          <a href="#" aria-label="Instagram" class="inline-flex items-center justify-center w-10 h-10 rounded-full border border-white/20 text-gray-300 hover:text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-primary/40">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M7 3h10a4 4 0 014 4v10a4 4 0 01-4 4H7a4 4 0 01-4-4V7a4 4 0 014-4zm5 4.5A4.5 4.5 0 1016.5 12 4.5 4.5 0 0012 7.5zm6-1a1 1 0 10-1-1 1 1 0 001 1z"/></svg>
+          </a>
+          <a href="https://wa.me/213549523594" target="_blank" rel="noopener" aria-label="WhatsApp" class="inline-flex items-center justify-center w-10 h-10 rounded-full border border-white/20 text-gray-300 hover:text-white hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-primary/40">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M20.52 3.48A11.77 11.77 0 0012 0 12 12 0 001.6 17.8L0 24l6.35-1.66A11.94 11.94 0 0012 24a12 12 0 0012-12 11.77 11.77 0 00-3.48-8.52zM12 22a9.94 9.94 0 01-5.06-1.38l-.36-.21-3.77 1 .99-3.67-.24-.38A10 10 0 1112 22zm5.46-7.54c-.3-.15-1.77-.87-2.04-.97s-.47-.15-.67.15-.77.97-.94 1.17-.35.22-.64.07a8.16 8.16 0 01-2.4-1.48 9 9 0 01-1.66-2.06c-.17-.3 0-.46.13-.61s.3-.35.45-.53.2-.3.3-.5a.56.56 0 000-.53c-.08-.15-.67-1.61-.92-2.2s-.49-.5-.67-.5h-.57a1.11 1.11 0 00-.8.38 3.34 3.34 0 00-1 2.47 5.79 5.79 0 001.24 3.07 13.22 13.22 0 005.06 4.54 17.44 17.44 0 001.73.64 4.16 4.16 0 001.92.12 3.15 3.15 0 002.06-1.45 2.58 2.58 0 00.18-1.45c-.08-.15-.27-.22-.57-.37z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-white/10">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 text-sm text-gray-400 flex items-center justify-between">
+        <span>© <span id="year"></span> Dalil DZ</span>
+        <div class="flex items-center gap-4">
+          <a href="privacy.html" class="hover:text-gray-200">سياسة الخصوصية</a>
+          <a href="terms.html" class="hover:text-gray-200">الشروط والأحكام</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/cookie-consent.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

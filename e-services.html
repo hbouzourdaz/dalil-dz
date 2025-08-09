@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ar" dir="rtl" class="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>الخدمات الإلكترونية | Dalil DZ</title>
+  <meta name="description" content="صفحة مخصصة لعرض جميع الخدمات الإلكترونية في الجزائر مصنفة ضمن مجموعات واضحة لسهولة التصفح." />
+  <link rel="icon" type="image/png" href="assets/img/logo.png" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: { extend: { fontFamily: { sans: ['Rubik','ui-sans-serif','system-ui'] }, colors: { primary: '#0ea5e9' } } }
+    }
+  </script>
+  <style> html{scroll-behavior:smooth} .tap{-webkit-tap-highlight-color:transparent} </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "الخدمات الإلكترونية",
+    "url": "https://example.com/e-services.html"
+  }
+  </script>
+</head>
+<body class="bg-gray-50 dark:bg-gray-950 text-gray-800 dark:text-gray-100 font-sans">
+  <!-- Navbar -->
+  <header class="sticky top-0 z-50 bg-white/90 dark:bg-gray-900/80 backdrop-blur border-b border-gray-100 dark:border-gray-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="h-16 flex items-center justify-between">
+        <a href="index.html" class="flex items-center gap-3 tap">
+          <img src="assets/img/logo.png" alt="Dalil DZ" class="w-9 h-9 object-contain" loading="lazy" />
+          <span class="text-xl font-bold text-gray-900 dark:text-gray-100">Dalil DZ</span>
+        </a>
+        <nav class="hidden md:flex items-center gap-6">
+          <a href="index.html#categories" class="hover:text-primary">📚 التصنيفات</a>
+          <a href="e-services.html" class="text-primary font-semibold">⚡ الخدمات الإلكترونية</a>
+          <a href="about.html" class="hover:text-primary">ℹ️ من نحن</a>
+          <a href="contact.html" class="hover:text-primary">📨 اتصل بنا</a>
+          <button data-theme-toggle class="tap p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-800" aria-label="الوضع الداكن" title="تبديل الوضع">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 hidden dark:block"><path d="M21.64 13A9 9 0 1 1 11 2.36 7 7 0 0 0 21.64 13z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 dark:hidden"><path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"/></svg>
+          </button>
+        </nav>
+        <button id="mobileMenuBtn" class="md:hidden tap p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-800" aria-label="فتح القائمة">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden border-t border-gray-100 dark:border-gray-800">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex flex-col gap-3">
+        <a href="index.html#categories" class="hover:text-primary">📚 التصنيفات</a>
+        <a href="e-services.html" class="text-primary font-semibold">⚡ الخدمات الإلكترونية</a>
+        <a href="about.html" class="hover:text-primary">ℹ️ من نحن</a>
+        <a href="contact.html" class="hover:text-primary">📨 اتصل بنا</a>
+        <button data-theme-toggle class="tap p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-800 self-start" aria-label="الوضع الداكن">تبديل الوضع</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero/Header -->
+  <section class="bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-950">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
+      <div class="text-center space-y-4">
+        <h1 class="text-3xl sm:text-4xl font-bold"><span class="me-2 align-middle">⚡</span><span>الخدمات الإلكترونية في الجزائر</span></h1>
+        <p class="text-gray-600 dark:text-gray-300">تصفّح جميع الخدمات الإلكترونية مصنفة ضمن مجموعات ليسهل الوصول إليها.</p>
+      </div>
+      <!-- Search -->
+      <form id="esSearchForm" class="mt-8 max-w-3xl mx-auto">
+        <div class="flex flex-col sm:flex-row items-stretch gap-3">
+          <label class="sr-only" for="esq">ابحث عن خدمة إلكترونية</label>
+          <input name="q" id="esq" type="search" placeholder="ابحث عن خدمة إلكترونية..." class="w-full rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary/40" />
+          <button type="submit" class="rounded-lg bg-primary text-white px-5 py-3 hover:bg-sky-600">بحث</button>
+        </div>
+      </form>
+
+      <!-- Services controls: group filter -->
+      <div class="mt-6 flex flex-col gap-2 sm:flex-row sm:items-center">
+        <div class="flex items-center gap-2">
+          <label for="esGroup" class="text-sm text-gray-600 dark:text-gray-300">🗂️ تصنيف:</label>
+          <select id="esGroup" class="rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40 min-w-[220px]">
+            <option value="all">✨ الكل</option>
+            <option value="utilities">🔌💧 الغاز والكهرباء والماء</option>
+            <option value="poste">📮 بريد الجزائر</option>
+            <option value="telecom">📡 اتصالات الجزائر والهاتف</option>
+            <option value="administration">🏛️ الحالة المدنية والإدارة</option>
+            <option value="education">📚 التربية والتعليم</option>
+            <option value="university">🎓 الخدمات الجامعية</option>
+            <option value="vocational">🛠️ التكوين المهني</option>
+            <option value="realestate">🏠 العقار والمسح</option>
+            <option value="social">👥 الضمان الاجتماعي والتقاعد</option>
+            <option value="fiscal">💳 الخدمات الجبائية</option>
+            <option value="justice">⚖️ العدل والقضاء</option>
+            <option value="transport">🚌✈️ النقل والحجوزات</option>
+            <option value="employment">💼 التشغيل والعمل</option>
+            <option value="insurance">🛡️ التأمين</option>
+            <option value="health">🏥 الصحة</option>
+            <option value="autoentre">🚀 المقاول الذاتي</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="esPageRoot" class="py-10 sm:py-14">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div id="esGroups" class="space-y-10"></div>
+      <div id="esEmpty" class="hidden"></div>
+    </div>
+  </main>
+
+  <footer class="bg-gray-900 text-gray-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 text-sm text-gray-400 flex items-center justify-between">
+      <span>© <span id="year"></span> Dalil DZ</span>
+      <div class="flex items-center gap-4">
+        <a href="privacy.html" class="hover:text-gray-200">سياسة الخصوصية</a>
+        <a href="terms.html" class="hover:text-gray-200">الشروط والأحكام</a>
+        <a href="contact.html" class="hover:text-gray-200">اتصل بنا</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/cookie-consent.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
