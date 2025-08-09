@@ -1,3 +1,3 @@
 # Replace with your AdSense publisher ID
 # Format: google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
-google.com, pub-REPLACE_WITH_YOUR_PUBLISHER_ID, DIRECT, f08c47fec0942fa0
+google.com, pub-6233071183236364, DIRECT, f08c47fec0942fa0
